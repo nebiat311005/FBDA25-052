@@ -4,7 +4,7 @@
 **Cohort:** 2026  
 **Student:** Nebiat [FBDA25-052]  
 
----
+
 
 ## Project Overview
 This project is part of the *Web & Multimedia Development* assignment at Botswana Accountancy College.  
@@ -16,7 +16,7 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 **Live Website:**  
 [https://nebiat311005.github.io/FBDA25-052/](https://nebiat311005.github.io/FBDA25-052/)
 
----
+
 
 ## Technologies Used
 | Technology | Purpose |
@@ -28,6 +28,50 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 | **Git & GitHub Pages** | Version control and site hosting |
 | **VS Code / GIMP / Canva** | Web coding and graphic design tools |
 
----
 
-## 🧩 Website Structure
+
+## Website Structure
+FBDA25-052/
+├── index.html 
+   # Home page 
+├── about.html 
+   # Introduction to Eritrea 
+├── tourism.html 
+   # Tourist destinations 
+├── gallery.html 
+   # Image gallery 
+├── contact.html 
+   # Contact/feedback form 
+├── css/ 
+│ └── style.css 
+├── js/ 
+│ └── script.js 
+└── images/ 
+  ├── asmara.jpg
+  ├── flag.jpg
+  ├── redsea.jpg
+  └── culture.jpg
+
+
+## 🧠 Learning Objectives
+- Apply the web design process: requirements, design, content development, and testing.
+- Build a responsive multi-page website using standard web technologies.
+- Host and manage the project using GitHub and GitHub Pages.
+- Conduct testing for browser and mobile compatibility.
+
+## 🧾 Quality Assurance
+| Test Type | Description | Status |
+|------------|-------------|--------|
+| HTML Validation | Checked with W3C validator | ✅ Passed |
+| CSS Validation | Checked with W3C CSS validator | ✅ Passed |
+| Browser Support | Chrome, Firefox, Edge, Opera | ✅ OK |
+| Mobile View | Fully responsive | ✅ OK |
+| Form Test | Client-side validation functional | ✅ OK |
+
+
+## 🚀 Deployment Instructions
+To run locally:
+```bash
+git clone [github.com](https://github.com/nebiat311005/FBDA25-052.git)
+cd FBDA25-052
+open index.html
