@@ -7,8 +7,8 @@
 
 
 ## Project Overview
-This project is part of the *Web & Multimedia Development* assignment at Botswana Accountancy College.  
-It demonstrates the full web development lifecycle — from planning and information design to final deployment on **GitHub Pages**.
+This project is part of the *Web & Multimedia Development* assignment at Botswana Accountancy College 2026.  
+It demonstrates the full web development lifecycle from planning and information design to final deployment on **GitHub Pages**.
 
 The website showcases **Eritrea**, highlighting its culture, history, tourism, and heritage.  
 It’s an educational, visual presentation designed to practice and demonstrate HTML5, CSS3, JavaScript, and responsive web design.
