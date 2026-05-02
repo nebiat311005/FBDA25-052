@@ -54,3 +54,5 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 ## Contact
 For any feedback or questions:
 email: fbda25-052@thuto.bac.ac.bw
+
+© 2026 – Eritrea Showcase by Nebiat | Botswana Accountancy College
