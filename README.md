@@ -2,7 +2,7 @@
 **Module:** Web & Multimedia Development  
 **Programme:** BSc Business Intelligence and Data Analytics  
 **Cohort:** 2026  
-**Student:** Nebiat [FBDA25-052]  
+**Student:** Nebiat Yohannes Nerayo [FBDA25-052]  
 
 
 
@@ -24,34 +24,17 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 | **HTML5** | Structure and semantic page layout |
 | **CSS3** | Styling and responsive design |
 | **JavaScript (Vanilla)** | Basic interactivity and form validation |
-| **Bootstrap (optional)** | Additional layout support (if used) |
 | **Git & GitHub Pages** | Version control and site hosting |
-| **VS Code / GIMP / Canva** | Web coding and graphic design tools |
+| **GIMP / Canva** | Web coding and graphic design tools |
 
 
 
 ## Website Structure
-FBDA25-052/
-├── index.html 
    # Home page 
-├── about.html 
    # Introduction to Eritrea 
-├── tourism.html 
    # Tourist destinations 
-├── gallery.html 
    # Image gallery 
-├── contact.html 
    # Contact/feedback form 
-├── css/ 
-│ └── style.css 
-├── js/ 
-│ └── script.js 
-└── images/ 
-  ├── asmara.jpg
-  ├── flag.jpg
-  ├── redsea.jpg
-  └── culture.jpg
-
 
 ## 🧠 Learning Objectives
 - Apply the web design process: requirements, design, content development, and testing.
@@ -75,3 +58,9 @@ To run locally:
 git clone [github.com](https://github.com/nebiat311005/FBDA25-052.git)
 cd FBDA25-052
 open index.html
+
+##Future Improvements
+Integrate interactive maps of Eritrean landmarks.
+Add a blog/news section for cultural updates.
+Include a video section or voice narration.
+Translate into Tigrinya, Arabic, and English for accessibility.
