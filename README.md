@@ -30,19 +30,19 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 
 
 ## Website Structure
-   # Home page 
-   # Introduction to Eritrea 
-   # Tourist destinations 
-   # Image gallery 
-   # Contact/feedback form 
+- Home page 
+- Introduction to Eritrea
+- Tourist destinations 
+- Image gallery 
+- Contact/feedback form 
 
-## 🧠 Learning Objectives
+## Learning Objectives
 - Apply the web design process: requirements, design, content development, and testing.
 - Build a responsive multi-page website using standard web technologies.
 - Host and manage the project using GitHub and GitHub Pages.
 - Conduct testing for browser and mobile compatibility.
 
-## 🧾 Quality Assurance
+## Quality Assurance
 | Test Type | Description | Status |
 |------------|-------------|--------|
 | HTML Validation | Checked with W3C validator | ✅ Passed |
@@ -51,16 +51,6 @@ It’s an educational, visual presentation designed to practice and demonstrate 
 | Mobile View | Fully responsive | ✅ OK |
 | Form Test | Client-side validation functional | ✅ OK |
 
-
-## 🚀 Deployment Instructions
-To run locally:
-```bash
-git clone [github.com](https://github.com/nebiat311005/FBDA25-052.git)
-cd FBDA25-052
-open index.html
-
-##Future Improvements
-Integrate interactive maps of Eritrean landmarks.
-Add a blog/news section for cultural updates.
-Include a video section or voice narration.
-Translate into Tigrinya, Arabic, and English for accessibility.
+## Contact
+For any feedback or questions:
+email: fbda25-052@thuto.bac.ac.bw
