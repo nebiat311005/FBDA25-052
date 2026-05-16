@@ -3,34 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eritrea Showcase - Home</title>
+    <title>Eritrea Website - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Eritrea</a></li>
-                <li><a href="tourism.html">Tourism</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<body class="theme-warm">
+
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+
+    <header class="site-header gradient-mesh shadow-soft">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">ER</span>
+                <span class="brand-text">
+                    <span class="brand-title">Eritrea</span>
+                    <span class="brand-tagline">Land, Struggle &Resilience</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+
+            <nav id="site-nav" class="site-nav" aria-label="Main navigation" class="nav-link active">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="history.html" class="nav-link">History</a></li>
+                    <li><a href="culture.html" class="nav-link">Culture</a></li>
+                    <li><a href="archive.html" class="nav-link">Archive</a></li>
+                    <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section class="hero">
-            <h1>Welcome to Eritrea</h1>
-            <p>Land of Struggle, Resilience, and Beauty</p>
+        <section class="hero section-large">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">A Digital Story of a Nation</p>
+                    <h1>Discover Eritrea: beauty, hardship and hope.</h1>
+                    <p class="lead">
+                        This website is my small project to show Eritrea's landscapes and culture, but also to talk about the struggles and the strong resilience of Eritrean people.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="resilience.html" class="btn primary">Explore Resilience</a>
+                        <a href="history.html" class="btn ghost">Learn the History</a>
+                    </div>
+                    <div class="hero-meta">
+                        <span class="meta-pill">Country profile</span>
+                        <span class="meta-pill">Struggles & hope</span>
+                        <span class="meta-pill">Culture & identity</span>
+                    </div>
+                </div>
+
+                <div class="hero-card gradient-border shadow-dramatic">
+                    <h2 class="hero-card-title">Eritrea at a Glance</h2>
+                    <dl class="data-list">
+                        <div>
+                            <dt>Capital</dt>
+                            <dd>Asmara</dd>
+                        </div>
+                        <div>
+                            <dt>Region</dt>
+                            <dd>Horn of Africa</dd>
+                        </div>
+                        <div>
+                            <dt>Independence</dt>
+                            <dd>1993 (after a 30 year struggle)</dd>
+                        </div>
+                        <div>
+                            <dt>Population</dt>
+                            <dd>About 3.6 million (approx.)</dd>
+                        </div>
+                    </dl>
+                    <p class="hero-card-footnote">Numbers are just estimates for school purposes.</p>
+                </div>
+            </div>
         </section>
-        <section class="intro">
-            <h2>Discover Eritrea</h2>
-            <p>Eritrea is a country rich in history, culture, and natural beauty. From its ancient heritage to modern achievements, Eritrea offers a unique experience for visitors.</p>
+
+        <section class="section">
+            <div class="container split-grid">
+                <div class="split-block card shadow-soft">
+                    <h2>Struggles that shaped Eritrea</h2>
+                    <p>
+                        From colonisation and war to sanctions and migration, Eritrea has gone through many difficult periods. These events affected families, education and daily life.
+                    </p>
+                    <a href="history.html" class="text-link">Read more on the History page</a>
+                </div>
+
+                <div class="split-block card shadow-soft">
+                    <h2>Resilience in everyday life</h2>
+                    <p>
+                        Even with all these challenges, Eritreans continue to study, work, celebrate culture and support each other at home and in the diaspora.
+                    </p>
+                    <a href="resilience.html" class="text-link">Explore stories of resilience</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Eritrean culture in focus</h2>
+                    <p>
+                        Culture is a big part of how Eritreans stay strong. Food, music, coffee ceremonies and traditional clothes connect people everywhere.
+                    </p>
+                </div>
+
+                <div class="pill-grid">
+                    <div class="pill-card">
+                        <h3>Coffee Ceremony</h3>
+                        <p>
+                            A slow and social coffee making process that shows hospitality. It is usually served with popcorn or bread.
+                        </p>
+                    </div>
+
+                    <div class="pill-card">
+                        <h3>Languages</h3>
+                        <p>
+                            Tigrinya, Tigre, Arabic and other languages are spoken, showing the diversity of the people.
+                        </p>
+                    </div>
+
+                    <div class="pill-card">
+                        <h3>Music & Dance</h3>
+                        <p>
+                            Traditional dances and songs, as well as modern music, tell stories about life, migration and hope.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-callout">
+            <div class="container callout-card shadow-soft">
+                <div>
+                    <h2>Share your thoughts</h2>
+                    <p>
+                        This is a student project. If you think something is missing or can be improved, you can send me feedback using the form.
+                    </p>
+                </div>
+                <div class="callout-actions">
+                    <a href="feedback.html" class="btn secondary">Go to Feedback Page</a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2026 Eritrea Showcase</p>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-text">
+              <span id="year"></span> Eritrea Showcase Resilience Website (Student Project)
+            </p>
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="history.html">History</a>
+                <a href="culture.html">Culture</a>
+                <a href="resilience.html">Resilience</a>
+                <a href="archive.html">Archive</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eritrea | Feedback</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-warm">
+  <header class="site-header gradient-mesh shadow-soft">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">ER</span>
+        <span class="brand-text">
+          <span class="brand-title">Eritrea</span>
+          <span class="brand-tagline">Land • Struggle • Resilience</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation" class="nav-link active">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="history.html" class="nav-link">History</a></li>
+                    <li><a href="culture.html" class="nav-link">Culture</a></li>
+                    <li><a href="archive.html" class="nav-link">Archive</a></li>
+                    <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>                </ul>
+                </ul>
+            </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero section">
+      <div class="container narrow">
+        <p class="eyebrow">Feedback</p>
+        <h1>Share your thoughts about this Eritrea project</h1>
+        <p class="lead">
+          Use this form to give suggestions, highlight missing perspectives, or comment on the design.
+          No data is stored; the form exists for demonstration and assessment purposes.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <form id="feedback-form" class="form card shadow-soft" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name" />
+            <p class="field-hint">You may use your first name only.</p>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+            <p class="field-hint">Used only to reply to your feedback (in a real project).</p>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="">Select a topic</option>
+              <option value="content">Content accuracy or balance</option>
+              <option value="design">Design &amp; layout</option>
+              <option value="accessibility">Accessibility &amp; readability</option>
+              <option value="other">Other</option>
+            </select>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your feedback</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="field-hint">Please be respectful and constructive.</p>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form-group form-group-inline">
+            <label class="checkbox-label">
+              <input type="checkbox" id="consent" name="consent" required />
+              <span>I understand this is a student project website.</span>
+            </label>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+
+          <button class="btn primary" type="submit">Submit Feedback</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-text">
+            <span id="year"></span> Eritrea Showcase Resilience Website (Student Project)
+            </p>
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="history.html">History</a>
+                <a href="culture.html">Culture</a>
+                <a href="resilience.html">Resilience</a>
+                <a href="archive.html">Archive</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
