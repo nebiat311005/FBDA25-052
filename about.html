@@ -1,143 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eritrea Website - About</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eritrea Horizons | About</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="theme-warm">
+<body class="page-about theme-warm">
 
-    <div class="floating-shape shape-1"></div>
-    <div class="floating-shape shape-2"></div>
-
-    <header class="site-header gradient-mesh shadow-soft">
-        <div class="container header-inner">
-            <a href="index.html" class="brand">
-                <span class="brand-mark">ER</span>
-                <span class="brand-text">
-                    <span class="brand-title">Eritrea</span>
-                    <span class="brand-tagline">Land, Struggle & Resilience</span>
-                </span>
-            </a>
-
-            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-                <span class="nav-toggle-bar"></span>
-                <span class="nav-toggle-bar"></span>
-            </button>
-
-           <nav id="site-nav" class="site-nav" aria-label="Main navigation" class="nav-link active">
-                <ul>
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="history.html" class="nav-link">History</a></li>
-                    <li><a href="culture.html" class="nav-link">Culture</a></li>
-                    <li><a href="archive.html" class="nav-link">Archive</a></li>
-                    <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>                </ul>
-            </nav>
+  <header class="site-header">
+    <div class="header-inner container">
+              <a href="index.html" class="brand">
+        <img src="images/ERITREA HORIZONS LOGO.png" 
+             alt="Eritrea Horizons Logo" 
+             class="logo-img" 
+             width="100" 
+             height="50">
+          <div class="brand-text">
+          <span class="brand-tagline">Telling Eritrean Stories with Pride & Purpose</span>
         </div>
-    </header>
+      </a>
 
-    <main>
-        <section class="page-hero">
-            <div class="container">
-                <p class="eyebrow">About This Project</p>
-                <h1>About the Eritrea Website</h1>
-                    <p class="lead">
-                        This page explains why I created this website, who it is for and how it connects to the struggles and resilience of Eritrean people.
-                    </p>
-            </div>
-        </section>
+      <nav class="site-nav ms-auto" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link is-active">About</a></li>
+          <li><a href="history.html" class="nav-link">History</a></li>
+          <li><a href="culture.html" class="nav-link">Culture</a></li>
+          <li><a href="archive.html" class="nav-link">Archive</a></li>
+          <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>
+        </ul>
+      </nav>
 
-        <section class="section">
-            <div class="container layout-two-col">
-                <div>
-                    <h2>Purpose of the Website</h2>
-                    <p>
-                        I built this website as a student project to showcase Eritrea in a more
-                        personal way. Many people only hear about Eritrea through short news stories,
-                        so I wanted to put history, culture, daily life and personal memories in one
-                        place.
-                    </p>
-                    <p>
-                        The main goal is to highlight both the struggles and the strength of the
-                        people. It is not an official website, but a small digital space where I can
-                        collect information, stories and visuals that matter to me and my community.
-                    </p>
-                </div>
-                <div>
-                    <h2>Target Audience</h2>
-                    <p>
-                        This website is mainly for:
-                    </p>
-                    <ul>
-                        <li>Students and friends who want to learn basic facts about Eritrea.</li>
-                        <li>Members of the Eritrean diaspora who miss home and want to see familiar images.</li>
-                        <li>Anyone who is curious about the history, culture and resilience of Eritreans.</li>
-                    </ul>
-                    <p>
-                        I tried to keep the language simple and the layout clean so that people with
-                        different technical skills can still use the site on phones, tablets and
-                        laptops.
-                    </p>
-                </div>
-            </div>
-        </section>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
 
-        <section class="section section-alt">
-            <div class="container   layout-two-col">
-                <div>
-                    <h2>How the Pages Fit Together</h2>
-                    <p>
-                        Each page has a small role:
-                    </p>
-                    <ul>
-                        <li>Home gives a quick overview and sets the tone.</li>
-                        <li>History focuses on important events and struggles.</li>
-                        <li>Culture shows traditions, food, music and daily life.</li>
-                        <li>Resilience highlights how people keep going despite challenges.</li>
-                        <li>Gallery shares visual impressions of places and people.</li>
-                        <li>Archive keeps more personal stories from family and friends.</li>
-                        <li>Feedback lets visitors send comments and suggestions.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Limitations & Future Ideas</h2>
-                    <p>
-                        Right now the site is simple and mostly static. In the future I would like to:
-                    </p>
-                    <ul>
-                        <li>Add more real stories and media to the archive section.</li>
-                        <li>Translate some pages into Tigrinya and Arabic for better access.</li>
-                        <li>Use a small database or JSON file to manage stories instead of only HTML.</li>
-                        <li>Improve accessibility and add more detailed timelines on the history page.</li>
-                    </ul>
-                    <p>
-                        Even with these limits, this version already helps me practice web design and
-                        also keep a small digital memory of Eritrea.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
+  <main class="container">
+    <section class="page-heading text-center py-5">
+      <h1>About Eritrea Horizons</h1>
+      <p class="lead">
+        Eritrea Horizons is dedicated to telling Eritrean stories. It brings together history, 
+        culture, and diaspora memories so that Eritreans and friends of Eritrea can explore the 
+        country beyond headlines.
+      </p>
+    </section>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <p class="footer-text">
-            <span id="year"></span> Eritrea Showcase Resilience Website (Student Project)
+    <section class="row g-4">
+      <div class="col-lg-6">
+        <article class="card h-100">
+          <div class="card-body">
+            <h2>Website Objectives</h2>
+            <ul>
+              <li>Present Eritrea's history and culture in a respectful, positive way.</li>
+              <li>Offer Eritrean diaspora visitors a space to reflect on emotional stories.</li>
+              <li>Celebrate Eritrean resilience, creativity, and everyday life.</li>
+              <li>Encourage younger Eritreans to learn more about their roots.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-6">
+        <article class="card h-100">
+          <div class="card-body">
+            <h2>Target Audience</h2>
+            <p>This site is mainly created for:</p>
+            <ul>
+              <li>Eritrean students and youth in the diaspora.</li>
+              <li>Non-Eritrean classmates who want to learn about the country.</li>
+              <li>Lecturers and tutors assessing this assignment.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="row g-4 mt-4">
+      <div class="col-lg-6">
+        <article class="card h-100">
+          <div class="card-body">
+            <h2>Eritrean Identity and Diaspora</h2>
+            <p>
+              Many Eritreans live in cities such as London, Stockholm, Toronto, and Johannesburg 
+              while staying deeply connected to Asmara, Keren, Massawa, and their villages. 
+              This site acknowledges that connection and gives space to both pride and pain.
             </p>
-            <div class="footer-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="history.html">History</a>
-                <a href="culture.html">Culture</a>
-                <a href="resilience.html">Resilience</a>
-                <a href="archive.html">Archive</a>
-                <a href="feedback.html">Feedback</a>
-            </div>
-        </div>
-    </footer>
+          </div>
+        </article>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="col-lg-6">
+        <article class="card h-100">
+          <div class="card-body">
+            <h2>Future Development Ideas</h2>
+            <ul>
+              <li>Collect real-life stories from Eritreans in the diaspora.</li>
+              <li>Include audio clips of Eritrean music and interviews.</li>
+              <li>Translate key sections into Tigrinya, Arabic, and other languages.</li>
+              <li>Show interactive maps of Eritrean communities worldwide.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p><span id="year"></span> Eritrea Horizons • Student Project</p>
+      </div>
+      
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="history.html">History</a>
+        <a href="culture.html">Culture</a>
+        <a href="archive.html">Archive</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

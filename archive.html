@@ -1,194 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eritrea Website - Story Archive</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eritrea Horizons | Story Archive</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="theme-warm">
+<body class="page-archive theme-warm">
 
-    <div class="floating-shape shape-1"></div>
-    <div class="floating-shape shape-2"></div>
-
-    <header class="site-header gradient-mesh shadow-soft">
-        <div class="container header-inner">
-            <a href="index.html" class="brand">
-                <span class="brand-mark">ER</span>
-                <span class="brand-text">
-                    <span class="brand-title">Eritrea</span>
-                    <span class="brand-tagline">Land, Struggle & Resilience</span>
-                </span>
-            </a>
-
-            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-                <span class="nav-toggle-bar"></span>
-                <span class="nav-toggle-bar"></span>
-            </button>
-
-            <nav id="site-nav" class="site-nav" aria-label="Main navigation" class="nav-link active">
-                <ul>
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="history.html" class="nav-link">History</a></li>
-                    <li><a href="culture.html" class="nav-link">Culture</a></li>
-                    <li><a href="archive.html" class="nav-link">Archive</a></li>
-                    <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>                </ul>
-                </ul>
-            </nav>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand">
+        <img src="images/ERITREA HORIZONS LOGO.png" 
+             alt="Eritrea Horizons Logo" 
+             class="logo-img" 
+             width="165" 
+             height="55">
+        <div class="brand-text">
+          <span class="brand-name">Eritrea Horizons</span>
+          <span class="brand-tagline">Personal Stories & Living Memories</span>
         </div>
-    </header>
+      </a>
 
-    <main>
-        <section class="page-hero">
-            <div class="container">
-                <p class="eyebrow">Family & Friends Stories</p>
-                <h1>Story Archive</h1>
-                <p class="lead">
-                    This page is like a small library where I can keep short memories, stories and
-                    small clips from different times. For now I added a few sample cards to show how
-                    it will look.
-                </p>
+      <nav class="site-nav ms-auto" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="history.html" class="nav-link">History</a></li>
+          <li><a href="culture.html" class="nav-link">Culture</a></li>
+          <li><a href="archive.html" class="nav-link is-active">Archive</a></li>
+          <li><a href="feedback.html" class="nav-link nav-cta">Feedback</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-heading text-center py-5">
+      <div class="container">
+        <h1>Story Archive</h1>
+        <p class="lead">Personal memories and diaspora stories from Eritreans around the world.</p>
+      </div>
+    </section>
+
+    <!-- Archived Stories - Modern Dark Style -->
+    <section class="section-glimpses py-5">
+      <div class="container">
+        <h2 class="text-center mb-3">Archived Stories</h2>
+        <p class="text-center mb-5 text-muted">Real voices. Real experiences. Real Eritrean lives.</p>
+
+        <div class="glimpses-grid">
+          <div class="glimpse-card">
+            <div class="glimpse-image" style="background-image: url('images/asmara-street.jpg');"></div>
+            <div class="glimpse-content">
+              <h3>Summer in Asmara</h3>
+              <p>≈ 1998 • Childhood Memory</p>
             </div>
-        </section>
+          </div>
 
-        <section class="section section-alt">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Archived Stories</h2>
-                    <p>
-                        Each card below represents one memory or story. In the future I can replace
-                        the placeholders with real photos, audio or video clips from my family and
-                        friends.
-                    </p>
-                </div>
-
-                <div class="archive-grid">
-                    <article class="archive-card card shadow-soft" data-year="1998" data-theme="childhood">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>Summer in Asmara</h3>
-                            <p class="archive-meta">Approx. 1998 • Childhood memory</p>
-                            <p>
-                                A short story about playing football in the streets until sunset and
-                                the smell of coffee coming from every house.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2005" data-theme="family">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>Family Coffee Ceremony</h3>
-                            <p class="archive-meta">Around 2005 • Family gathering</p>
-                            <p>
-                                Remembering how everyone squeezed into a small living room, talking,
-                                laughing and sharing news while the coffee was roasting.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2012" data-theme="journey">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>Leaving Home</h3>
-                            <p class="archive-meta">2012 • Journey story</p>
-                            <p>
-                                A more serious memory about saying goodbye, long bus rides and the feeling of not knowing exactly what comes next.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2018" data-theme="diaspora">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>First Independence Day Abroad</h3>
-                            <p class="archive-meta">2018 • Diaspora life</p>
-                            <p>
-                                Celebrating Eritrean Independence Day in another country, with flags,
-                                music and food that reminded us of home.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2018" data-theme="diaspora">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>First Independence Day Abroad</h3>
-                            <p class="archive-meta">2018 • Diaspora life</p>
-                            <p>
-                                Celebrating Eritrean Independence Day in another country, with flags,
-                                music and food that reminded us of home.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2018" data-theme="diaspora">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>First Independence Day Abroad</h3>
-                            <p class="archive-meta">2018 • Diaspora life</p>
-                            <p>
-                                Celebrating Eritrean Independence Day in another country, with flags,
-                                music and food that reminded us of home.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2018" data-theme="diaspora">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>First Independence Day Abroad</h3>
-                            <p class="archive-meta">2018 • Diaspora life</p>
-                            <p>
-                                Celebrating Eritrean Independence Day in another country, with flags,
-                                music and food that reminded us of home.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="archive-card card shadow-soft" data-year="2018" data-theme="diaspora">
-                        <div class="archive-thumb"></div>
-                        <div class="archive-body">
-                            <h3>First Independence Day Abroad</h3>
-                            <p class="archive-meta">2018 • Diaspora life</p>
-                            <p>
-                                Celebrating Eritrean Independence Day in another country, with flags,
-                                music and food that reminded us of home.
-                            </p>
-                        </div>
-                    </article>
-
-                </div>
-
-                <div class="archive-note">
-                    <p>
-                        Note: This archive is static for now. In my next version I would like to add a
-                        simple form or JSON file to load more stories without editing the HTML every
-                        time.
-                    </p>
-                </div>
+          <div class="glimpse-card">
+            <div class="glimpse-image" style="background-image: url('images/coffee-ceremony.jpg');"></div>
+            <div class="glimpse-content">
+              <h3>Family Coffee Ceremony</h3>
+              <p>≈ 2005 • Family Tradition</p>
             </div>
-        </section>
-    </main>
+          </div>
 
-     <footer class="site-footer">
-        <div class="container footer-inner">
-            <p class="footer-text">
-            <span id="year"></span> Eritrea Showcase Resilience Website (Student Project)
-            </p>
-            <div class="footer-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="history.html">History</a>
-                <a href="culture.html">Culture</a>
-                <a href="resilience.html">Resilience</a>
-                <a href="archive.html">Archive</a>
-                <a href="feedback.html">Feedback</a>
+          <div class="glimpse-card">
+            <div class="glimpse-image" style="background-image: url('images/journey.jpg');"></div>
+            <div class="glimpse-content">
+              <h3>Leaving Home</h3>
+              <p>2012 • Journey Story</p>
             </div>
+          </div>
+
+          <div class="glimpse-card">
+            <div class="glimpse-image" style="background-image: url('images/diaspora.jpg');"></div>
+            <div class="glimpse-content">
+              <h3>First Independence Day Abroad</h3>
+              <p>2018 • Diaspora Life</p>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p><span id="year"></span> Eritrea Horizons • Student Project</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="history.html">History</a>
+        <a href="culture.html">Culture</a>
+        <a href="archive.html">Archive</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
