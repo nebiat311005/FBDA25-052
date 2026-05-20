@@ -14,14 +14,15 @@
   <header class="site-header">
     <div class="header-inner container">
       <a href="index.html" class="brand">
-        <img src="images/ERITREA HORIZONS LOGO.png" 
+        <img src="images/eritrea-horizons-logo.png" 
              alt="Eritrea Horizons Logo" 
              class="logo-img" 
              width="165" 
              height="55">
         <div class="brand-text">
-          <span class="brand-name">Eritrea Horizons</span>
-          <span class="brand-tagline">From Ancient Trade to Independence</span>
+          <span class="eritrea-gold">Eritrea</span><br> 
+          <span class="horizons-red">Horizons</span>
+          <span class="brand-tagline">Discover Eritrea's Past, Present & Diaspora</span>
         </div>
       </a>
 
@@ -45,56 +46,63 @@
 
   <main>
     <!-- Page Header -->
-    <section class="page-heading text-center py-5">
-      <div class="container">
-        <h1>Key Moments in Eritrea’s History</h1>
-        <p class="lead">From ancient civilizations to independence and nation-building.</p>
-      </div>
-    </section>
+<section class="section-glimpses py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Eritrea Through the Ages</h2>
 
-    <!-- Timeline / Key Moments - Modern Cards -->
-    <section class="section-glimpses py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">Eritrea Through the Ages</h2>
+    <div class="glimpses-grid">
 
-        <div class="glimpses-grid">
-          <div class="glimpse-card">
-            <div class="glimpse-image" style="background-image: url('images/ancient-trade.jpg');"></div>
-            <div class="glimpse-content">
-              <h3>Early Civilizations</h3>
-              <p>Red Sea Trade & Ancient Kingdoms</p>
-            </div>
-          </div>
-
-          <div class="glimpse-card">
-            <div class="glimpse-image" style="background-image: url('images/asmara-historic.jpg');"></div>
-            <div class="glimpse-content">
-              <h3>Italian Colonial Rule</h3>
-              <p>1880s – 1941</p>
-            </div>
-          </div>
-
-          <div class="glimpse-card">
-            <div class="glimpse-image" style="background-image: url('images/struggle.jpg');"></div>
-            <div class="glimpse-content">
-              <h3>Struggle for Independence</h3>
-              <p>1961 – 1991 (30 years)</p>
-            </div>
-          </div>
-
-          <div class="glimpse-card">
-            <div class="glimpse-image" style="background-image: url('images/independence.jpg');"></div>
-            <div class="glimpse-content">
-              <h3>Independence</h3>
-              <p>24 May 1993 – Present</p>
-            </div>
-          </div>
+      <!-- Card 1 -->
+      <div class="glimpse-card" data-modal="modal-1">
+        <div class="glimpse-image" style="background-image: url('images/aincent.jpg');"></div>
+        <div class="glimpse-content">
+          <h3>Early Civilizations</h3>
+          <p>Red Sea Trade & Ancient Kingdoms</p>
         </div>
       </div>
-    </section>
+
+      <!-- Card 2 -->
+      <div class="glimpse-card" data-modal="modal-2">
+        <div class="glimpse-image" style="background-image: url('images/Massawa\ streets.jfif');"></div>
+        <div class="glimpse-content">
+          <h3>Italian Colonial Rule</h3>
+          <p>1880s – 1941</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glimpse-card" data-modal="modal-3">
+        <div class="glimpse-image" style="background-image: url('images/Eritrea.jfif');"></div>
+        <div class="glimpse-content">
+          <h3>Struggle for Independence</h3>
+          <p>1961 – 1991 (30 years)</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="glimpse-card" data-modal="modal-4">
+        <div class="glimpse-image" style="background-image: url('images/independence-93.jpg');"></div>
+        <div class="glimpse-content">
+          <h3>Independence</h3>
+          <p>24 May 1993 – Present</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Full Screen Modal -->
+<div class="full-modal" id="fullModal">
+  <div class="modal-content">
+    <button class="modal-close"></button>
+    
+    <div class="modal-body" id="modalBody">
+    </div>
+  </div>
+</div>
   </main>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
