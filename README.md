@@ -2,7 +2,7 @@
 
 **A Digital Showcase of Eritrea’s History, Culture & Diaspora Stories**
 
-![Eritrea Horizons Banner](images/eritrea-hero.jpg)
+![Eritrea Horizons Banner](images/eritrea-horizons-logo)
 
 ## 🌍 About the Project
 
