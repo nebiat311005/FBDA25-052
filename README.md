@@ -1,9 +1,6 @@
-# Eritrea Horizons 🇪🇷
+# Eritrea Horizons
 
 **A Digital Showcase of Eritrea’s History, Culture & Diaspora Stories**
-
-![Eritrea Horizons Banner](images/eritrea-horizons-logo)
-
 ## 🌍 About the Project
 
 **Eritrea Horizons** is a modern, responsive educational website that celebrates the rich heritage, resilience, and identity of Eritrea. It presents the country’s history, vibrant culture, and diaspora experiences in an engaging and respectful way.
