@@ -31,7 +31,7 @@ This project was developed as part of the **Web & Multimedia Development** modul
 - **Bootstrap 5** – Responsive grid and components
 - **JavaScript** – Interactive elements and form validation
 - **GitHub Pages** – Hosting
-- **GIMP / Canva** – Image editing and logo design
+- **Canva** – Image editing and logo design
 
 ---
 
