@@ -1,7 +1,7 @@
 # Eritrea Horizons
 
 **A Digital Showcase of Eritrea’s History, Culture & Diaspora Stories**
-## 🌍 About the Project
+## About the Project
 
 **Eritrea Horizons** is a modern, responsive educational website that celebrates the rich heritage, resilience, and identity of Eritrea. It presents the country’s history, vibrant culture, and diaspora experiences in an engaging and respectful way.
 
@@ -9,13 +9,13 @@ This project was developed as part of the **Web & Multimedia Development** modul
 
 ---
 
-## ✨ Live Demo
+##  Live Demo
 
 **Website URL:** [https://nebiat311005.github.io/FBDA25-052/](https://nebiat311005.github.io/FBDA25-052/)
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Showcase Eritrea’s history, culture, and diaspora stories
 - Demonstrate modern web development skills
@@ -24,7 +24,7 @@ This project was developed as part of the **Web & Multimedia Development** modul
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5** – Semantic markup
 - **CSS3** – Custom styling with modern techniques
@@ -35,7 +35,7 @@ This project was developed as part of the **Web & Multimedia Development** modul
 
 ---
 
-## 📄 Pages
+##  Pages
 
 - **Home** – Hero section, Glimpses of Eritrea gallery, Eritrea at a Glance
 - **About** – Project objectives, target audience, and future ideas
@@ -46,7 +46,7 @@ This project was developed as part of the **Web & Multimedia Development** modul
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Fully responsive design (mobile + desktop)
 - Smooth scrolling navigation
@@ -58,26 +58,7 @@ This project was developed as part of the **Web & Multimedia Development** modul
 
 ---
 
-## 📁 Project Structure
-FBDA25-052/
-├── index.html
-├── about.html
-├── history.html
-├── culture.html
-├── archive.html
-├── feedback.html
-├── style.css
-├── script.js
-├── images/
-│   ├── ERITREA HORIZONS LOGO.png
-│   ├── asmara.jpg
-│   ├── red-sea.jpg
-│   └── ...
-└── README.md
-
----
-
-## 🧑‍💻 Author
+##  Author
 
 **Nebiat**  
 BSc Business Intelligence and Data Analytics / Computer Systems Engineering  
@@ -86,7 +67,7 @@ Botswana Accountancy College
 
 ---
 
-## 📌 Assignment Information
+##  Assignment Information
 
 - **Module:** Web & Multimedia Development
 - **Hand-in Date:** 20 May 2026
