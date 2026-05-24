@@ -75,13 +75,6 @@ Botswana Accountancy College
 
 ---
 
-**Thank you for visiting Eritrea Horizons!** 🇪🇷
+**Thank you for visiting Eritrea Horizons!** 
 
 ---
-
-### How to Use This README
-
-1. Create a new file in your repository root called `README.md`
-2. Copy and paste the content above
-3. Update the live link if needed
-4. Replace placeholder images with actual ones
